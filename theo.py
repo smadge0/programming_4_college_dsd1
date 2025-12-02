@@ -13,34 +13,42 @@ def addscores():
           print("Please enter a number into the score field.")
           addscores()
     with open("scoresfile.txt","a") as file:
-       file.write(f"Name: {name}, Score: {score}\n\n")
+       file.write(f"Name: {name}, Score: {score}\n")
     morescore = input("Enter another player's info? (y/n)")
     if morescore == "y":
        addscores()
     elif morescore == "n":
        print("yeah ok")
+       menu()
 
 def readscores():
    with open("scoresfile.txt","r") as file:
       for line in file:
          print(line)
+   menu()
 
 def clearscores():
    with open("scoresfile.txt","w") as file:
       file.write("")
+   print("scores cleared.")
+   menu()
 
 
-plssaywhattodo = input("what do you want")
-if plssaywhattodo == "addscores":
-   addscores()
-elif plssaywhattodo == "readscores":
-   readscores()
-elif plssaywhattodo == "clearscores":
-   clearscores()
-else:
-   print("wrong answer")
+def menu():
+   plssaywhattodo = input("what do you want (addscores,readscores,clearscores or exit.) ")
+   if plssaywhattodo == "addscores":
+     addscores()
+   elif plssaywhattodo == "readscores":
+     readscores()
+   elif plssaywhattodo == "clearscores":
+     clearscores()
+   elif plssaywhattodo == "exit":
+      print("sure")
+   else:
+      print("wrong answer\n")
+      menu()
 
 
 
-
+menu()
 
