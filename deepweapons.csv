@@ -1,0 +1,167 @@
+Name,Requirements,Damage,Penetration,Chip Damage,Scaling,Weight,Range,Swing Speed,Endlag,Scaled Damage,Weapon Type,Sub Weapon Type
+Stiletto,0 LHT,11.0,,,LHT: 3,2.0,6.0,1.25x,0.05s,14.4,Light,Daggers
+Gilded Knife,25 LHT,13.0,,,LHT: 8,4.0,6.0,1.23x,0.05s,23.8,Light,Daggers
+Silver Dagger,35 LHT,12.0,,,LHT: 6,2.0,6.0,1.25x,0.05s,19.5,Light,Daggers
+Canor Fang,40 LHT,11.0,5%,,LHT: 10,5.0,6.0,1.25x,0.05s,22.5,Light,Daggers
+Whaling Knife,40 LHT,15.0,,,LHT: 5,4.0,6.0,1.25x,0.05s,22.8,Light,Daggers
+Champion's Dagger,50 LHT,14.5,,10%,LHT: 8,4.0,6.0,1.25x,0.05s,26.6,Light,Daggers
+Central Dirk,50 LHT,15.0,5%,,LHT: 7,4.0,6.5,1.23x,0.05s,25.9,Light,Daggers
+Tanto,50 LHT,15.5,,,LHT: 8,3.0,6.5,1.13x,,28.4,Light,Daggers
+Nemit's Sickle,60 LHT,11.0,30%,,LHT: 13,4.0,6.0,1.25x,0.05s,25.9,Light,Daggers
+Flareblood Kamas (Bleed),60 LHT; 30 INT,13.0,30%,,"LHT: 8, INT: 2",4.0,6.0,1.25x,0.05s,34.6(Bleed),Light,Daggers
+Krulian Knife,75 LHT,12.5,20%,,LHT: 10.5,4.0,6.0,1.25x,0.05s,26.2,Light,Daggers
+Spectral Grasp,75 LHT,16.0,15%,,LHT: 7,4.0,6.5,1.20x,0.05s,27.7,Light,Daggers
+Kyrsedge,75 LHT,13.0,30%,15%,LHT: 8.5,4.0,6.0,1.25x,0.05s,24.5,Light,Daggers
+Alloyed Whaling Knife,75 LHT,15.0,15%,,LHT: 8,4.0,6.0,1.25x,0.05s,27.5,Light,Daggers
+Alloyed Tanto,80 LHT,16.0,5%,,LHT: 8,3.0,6.5,1.13x,,29.3,Light,Daggers
+Cerulean Thread,85 LHT; LVL 10,15.0,25%,,LHT: 7.5,4.0,6.0,1.25x,0.05s,26.7,Light,Daggers
+The Flippers of Fate,70 LHT; 15 CHA; 15 INT,10.5,15%,,"LHT: 8, CHA: 3, INT: 3",3.5,6.5,1.26x,0.04s,25.6,Light,Daggers
+Fist (Way of Navae/Legion Kata),0 LHT,12.0,,,LHT: 7,3.0,6.0,1.1x,,20.8,Light,Fists
+Iron Cestus,0 LHT,13.8,,,LHT: 7.5,5.0,6.0,1.11x,,24.6,Light,Fists
+Legion Cestus,30 LHT,15.0,5%,,LHT: 9,5.0,6.0,1.11x,,29.1,Light,Fists
+Jus Karita,"40 LHT, LVL 5",14.0,20%,,LHT: 9,3.0,6.5,1.14x,0.05s,27.1,Light,Fists
+Anklets of Alsin,25 LHT,13.5,15%,10%,LHT: 9,3.0,6.5,1.14x,0.05s,26.2,Light,Fists
+Coral Cestus,50 LHT,14.0,10%,,LHT: 9.5,5.0,6.0,1.09x,,27.9,Light,Fists
+Flamekeeper Cestus,65 LHT,15.5,5%,,LHT: 9.5,5.0,6.0,1.11x,,30.9,Light,Fists
+Drakemaw Gauntlets (Bleed),75 LHT,15.0,10%,10%,LHT: 7.5,4.0,6.0,1.09x,,34.7(Bleed),Light,Fists
+Broodalloy Cestus,85 LHT,16.5,20%,,LHT: 9.5,5.5,6.0,1.09x,,32.8,Light,Fists
+Light's Final Toll,"60 WLL, 35 LHT",12.0,10%,,WLL: 10 LHT: 4,5.0,6.5,1.1x,,29.8,Light,Fists
+Silversix,0 LHT,10.0,,,LHT: 13,1.0,10.0,1.17x,,23.6,Light,Guns
+Flintlock,20 LHT,11.0,,,LHT: 12,1.0,10.0,1.17x,,24.8,Light,Guns
+Dawnshot,40 LHT,14.0,,,LHT: 12,1.0,10.5,1.17x,,31.5,Light,Guns
+Repeater,65 LHT,14.0,,,LHT: 15,1.0,12.0,1.25x,,35.9,Light,Guns
+Dragoon,65 LHT,16.0,,,LHT: 12,1.0,11.0,1.17x,,36,Light,Guns
+Alloyed Dawnshot,75 LHT,16.0,5%,10%,LHT: 12,1.0,10.5,1.17x,,36,Light,Guns
+Aranea,200 LHT,14.0,,,LHT: 15,1.0,12.0,1x,,35.9,Light,Guns
+Quickfang,0 LHT,12.0,5%,,LHT: 7,4.0,8.0,1.08x,,20.8,Light,Rapiers
+Apprentice Rapier,20 LHT,13.0,,,LHT: 6.5,4.0,8.0,1.06x,,21.8,Light,Rapiers
+Inquisitor's Thorn,40 LHT,14.0,10%,,LHT: 7,4.0,8.0,1.08x,,24.2,Light,Rapiers
+Crucible Rapier,75 LHT,15.0,20%,,LHT: 8,5.0,8.0,1.09x,,27.5,Light,Rapiers
+Golden Swordfish,75 LHT,15.0,20%,,LHT: 8,5.0,8.1,1.09x,,27.5,Light,Rapiers
+Skullpiercer (Bleed),75 LHT,14.0,10%,,LHT: 7.5,4.0,8.5,1.08x,,32.4(Bleed),Light,Rapiers
+Kyrstreza,75 LHT,15.0,30%,,LHT: 8.5,4.0,8.0,1.09x,,28.3,Light,Rapiers
+Sword,0 MED,18.0,,,MED: 2.5,5.0,8.0,1x,,22.7,Medium,Swords
+False Memory,0 MED,18.0,,,MED: 2.5,5.0,8.0,1x,,22.7,Medium,Swords
+Dormant Splinter,"5 MED, LVL 3",5.0,10%,,MED: 7,4.0,8.0,0.9x,,8.6,Medium,Swords
+Messer,10 MED,20.0,,,MED: 5,6.0,7.5,0.93x,,30.4,Medium,Swords
+Falchion,20 MED,16.0,,,MED: 6,4.0,7.5,1.06x,,26,Medium,Swords
+Scimitar,20 MED,15.0,,,MED: 3,5.0,8.0,1.09x,,19.7,Medium,Swords
+Katana,25 MED,18.0,,,MED: 6,5.0,8.0,1x,,29.3,Medium,Swords
+Worshipper Longsword,30 MED,19.0,,,MED: 4,5.0,8.0,1x,,26.9,Medium,Swords
+Officer Saber,30 MED,22.0,,,MED: 4.5,6.0,8.0,1x,,32.3,Medium,Swords
+Vigil Longsword,40 MED,20.0,,,MED: 6,5.0,8.0,1x,,32.5,Medium,Swords
+Champion's Sword,40 MED,19.0,,,MED: 6.5,4.0,8.0,1.02x,,31.9,Medium,Swords
+Cavalry Saber,40 MED,21.0,,,MED: 5,5.0,8.0,1x,,31.9,Medium,Swords
+Shotel,45 MED,22.0,,20%,MED: 5,4.0,8.0,0.97x,,33.5,Medium,Swords
+Warden Ceremonial Sword,50 MED,17.0,,,MED: 7,4.0,7.5,1.06x,,29.4,Medium,Swords
+Razor Cutlass (Bleed),60 MED,18.0,25%,10%,MED: 7.5,8.0,8.0,0.94x,,41.7(Bleed),Medium,Swords
+Forgotten Gladius,65 MED,18.0,13%,,MED: 7,5.0,7.5,1.04x,,31.1,Medium,Swords
+Serpent's Edge,75 MED,22.0,15%,,MED: 6,6.0,8.0,0.97x,,35.8,Medium,Swords
+Hallowscleave,75 MED,19.0,25%,,MED: 7,6.0,8.0,1x,,32.9,Medium,Swords
+Alloyed Messer,75 MED,21.0,15%,15%,MED: 6,7.0,7.5,0.97x,,34.1,Medium,Swords
+Alloyed Falchion,75 MED,16.0,20%,,MED: 7,5.0,7.5,1.06x,,27.7,Medium,Swords
+Alloyed Vigil Longsword,75 MED,20.0,20%,,MED: 7.5,5.0,8.0,1x,,35.6,Medium,Swords
+Alloyed Shotel,75 MED,22.0,10%,30%,MED: 6,4.0,8.0,0.97x,,35.8,Medium,Swords
+Alloyed Katana,75 MED,20.0,10%,10%,MED: 7,6.0,8.0,1x,,34.6,Medium,Swords
+Kyrsblade,75 MED,22.0,5%,30%,MED: 6,6.0,7.5,1x,,35.8,Medium,Swords
+Purple Cloud,"85 MED, LVL 10",16.5,15%,,MED: 9,5.0,6.5,1.06x,,32,Medium,Swords
+Soulthorn,"80 MED, 40 INT, LVL 10",17.0,,30%,"MED: 7, INT: 3.5",5.0,8.0,1.02x,,35.6,Medium,Swords
+Shattered Katana,"90 MED, LVL 10",20.0,30%,,MED: 7,5.0,8.0,1x,,37.2,Medium,Swords
+Irontusk,0 MED,16.5,10%,,MED: 3,5.0,9.0,0.9x,,21.7,Medium,Spears
+Iron Spear,0 MED,17.0,10%,,MED: 2.5,5.0,9.0,0.9x,,21.4,Medium,Spears
+Gremorian Longspear,20 MED,18.0,,,MED: 4,5.0,9.0,0.9x,,25.5,Medium,Spears
+Ritual Spear,35 MED,19.0,25%,,MED: 5,5.0,9.0,0.9x,,28.9,Medium,Spears
+Acheron's Warspear (Bleed),40 MED,18.0,15%,,MED: 6,5.0,9.0,0.93x,,38(Bleed),Medium,Spears
+Imperial Staff,40 MED; 40 STR,19.5,10%,,MED: 5; STR: 3.5,6.0,8.0,1x,,35,Medium,Spears
+Trident Spear,50 MED,19.0,25%,,MED: 6,5.0,9.0,0.9x,,30.9,Medium,Spears
+Serrated Warspear (Bleed),65 MED,18.0,20%,10%,MED: 6.5,5.0,9.0,0.93x,,39.3(Bleed),Medium,Spears
+Bloodtide Trident (Bleed),75 MED,18.0,25%,10%,MED: 6,5.0,9.0,0.93x,,38(Bleed),Medium,Spears
+Alloyed Longspear,75 MED,20.0,10%,,MED: 5,5.0,9.0,0.93x,,30.4,Medium,Spears
+Rifle Spear,80 MED,21.0,25%,,MED: 7,5.0,9.0,0.9x,,36.3,Medium,Spears
+Alloyed Trident Spear,85 MED,19.0,25%,,MED: 7,5.0,9.0,0.92x,,32.9,Medium,Spears
+True Seraph's Spear,90 MED,18.5,20%,40%,MED: 7,5.0,9.0,0.96x,,32,Medium,Spears
+Kyrsglaive (Bleed),90 MED,18.5,20%,,MED: 5,5.0,9.0,0.96x,,36.6(Bleed),Medium,Spears
+Imperator's Edge,80 MED; 80 STR; 80 FTD,20.0,20%,,MED: 2; FTD: 4; STR: 3,7.0,11.0,0.93x,,33.5,Medium,Spears
+Mace,10 MED,20.0,5%,,MED: 5,6.0,7.5,0.93x,,30.4,Medium,Clubs
+Toothed Club (Bleed),30 MED,15.5,10%,5%,MED: 5,6.0,7.5,0.98x,,30.7(Bleed),Medium,Clubs
+Morning Star (Bleed),50 MED,16.0,20%,20%,MED: 5.5,5.0,7.5,0.98x,,32.7(Bleed),Medium,Clubs
+Sacred Hammer,65 MED,19.5,15%,,MED: 7,6.0,7.5,0.97x,,33.7,Medium,Clubs
+Pernach (Bleed),75 MED,18.5,30%,5%,MED: 6,7.0,8.0,0.98x,,39.1(Bleed),Medium,Clubs
+The Pastry Paster,70 MED; 15 CHA; 15 INT,15.5,,,"MED: 5, CHA: 2, INT: 2",7.0,7.5,1x,,30.1,Medium,Clubs
+Summer Rifle,40 MED,17.0,,,MED: 6,4.0,8.0,1x,,27.6,Medium,Rifles
+Rosen's Peacemaker,75 MED,18.0,,,MED: 8,4.0,8.0,1x,,33,Medium,Rifles
+Iron Blunderbuss,75 MED,20.0,25%,,MED: 7,5.0,8.0,0.97x,,34.6,Medium,Rifles
+Iron Twinblade,15 MED,15.0,,,MED: 4,4.0,7.0,1x,,21.3,Medium,Twinblades
+Scalesplitter,40 MED,17.5,10%,,MED: 5,5.0,8.0,0.9x,,26.6,Medium,Twinblades
+Crescendo,75 MED,22.9,5%,,MED: 6,5.0,7.5,0.92x,,37.2,Medium,Twinblades
+Alloyed Scalesplitter,65 MED,20.0,15%,,MED: 6,6.0,8.0,1x,,32.5,Medium,Twinblades
+Death's Reverie (Bleed),75 MED,18.0,15%,,MED: 5,7.5,8.0,1.01x,,35.6(Bleed),Medium,Twinblades
+Battleaxe,0 HVY,20.0,,,HVY: 5,6.0,8.0,0.83x,,30.4,Heavy,Greataxes
+Halberd,25 HVY,22.0,,,HVY: 7,5.0,9.0,0.8x,,38.1,Heavy,Greataxes
+Adretian Axe,35 HVY,24.5,,,HVY: 7,5.0,8.0,0.85x,,41.5,Heavy,Greataxes
+Canorian Axe,35 HVY,24.5,,,HVY: 7,6.0,8.0,0.83x,,42.4,Heavy,Greataxes
+Iron Birch,50 HVY,26.0,,,HVY: 6,4.0,8.0,0.85x,,42.3,Heavy,Greataxes
+Evanspear Hand Axe (Bleed),70 HVY,25.0,,,HVY: 9.5,8.0,8.5,0.73x,,64.7(Bleed),Heavy,Greataxes
+Night Axe,75 HVY,23.0,5%,80%,HVY: 8,10.0,8.5,0.77x,,42.2,Heavy,Greataxes
+Master Hawk's HandAxe,75 HVY,24.5,5%,25%,HVY: 10,10.0,8.5,0.8x,,50,Heavy,Greataxes
+Relic Axe,75 HVY,25.0,25%,10%,HVY: 9,10.0,8.5,0.8x,,48.5,Heavy,Greataxes
+Quartztone Pickaxe,75 HVY,22.0,20%,,HVY: 7,7.0,8.0,0.94x,,38.1,Heavy,Greataxes
+Enforcer's Axe,"75 HVY, LVL 6",26.0,10%,,HVY: 10,8.0,8.5,0.76x,,53.1,Heavy,Greataxes
+Skyreap Blade,75 HVY,23.0,25%,,HVY: 7,7.5,8.5,0.91x,,39.8,Heavy,Greataxes
+Alloyed Canorian Axe,75 HVY,24.0,20%,10%,HVY: 9,7.0,8.0,0.83x,,46.5,Heavy,Greataxes
+Alloyed Halberd,75 HVY,24.0,15%,,HVY: 8,5.0,9.0,0.8x,,44,Heavy,Greataxes
+Alloyed Adretian Axe,75 HVY,24.0,10%,10%,HVY: 8,7.0,8.0,0.87x,,44,Heavy,Greataxes
+Pale Briar,"85 HVY, LVL 10",23.0,25%,10%,HVY: 7.5,7.0,10.0,0.81x,,41,Heavy,Greataxes
+Avenger,0 HVY,21.0,0%,,HVY: 6.5,8.0,8.5,0.83x,0.1s,35.2,Heavy,Greatswords
+Zweihander,"20 HVY, 10 STR",22.0,,,HVY: 7,7.0,9.0,0.8x,0.1s,38.1,Heavy,Greatswords
+Markor's Inheritor,"30 HVY, 10 STR",24.0,10%,,HVY: 7,8.0,8.5,0.85x,0.1s,41.5,Heavy,Greatswords
+Crescent Cleaver (Bleed),"40 HVY, 10 STR",22.0,,,HVY: 8,9.0,9.0,0.8x,0.1s,53.4(Bleed),Heavy,Greatswords
+Darksteel Greatsword,"40 HVY, 10 STR",26.0,,,HVY: 7,9.0,9.0,0.8x,0.1s,45,Heavy,Greatswords
+Inquisitor's Greatsword,40 HVY,23.5,,,HVY: 8.3,9.0,9.0,0.84x,0.1s,43.8,Heavy,Greatswords
+Kyrsieger,"50 HVY, 15 CHA",24.0,15%,10%,"HVY: 7, CHA: 2",9.0,9.0,0.83x,,46.6,Heavy,Greatswords
+Wretched Mawblades,75 HVY,27.5,,15%,HVY: 8,8.0,8.0,0.84x,0.1s,50.4,Heavy,Greatswords
+First Light,75 HVY,25.5,30%,,HVY: 8,9.0,8.5,0.82x,,46.8,Heavy,Greatswords
+Alloyed Zweihander,"75 HVY, 10 STR",23.0,10%,,HVY: 10,7.0,9.0,0.83x,0.1s,47,Heavy,Greatswords
+Alloyed Crescent Cleaver (Bleed),"75 HVY, 10 STR",22.4,,20%,HVY: 9.5,9.0,9.0,0.8x,0.1s,58(Bleed),Heavy,Greatswords
+Darkalloy Greatsword,"75 HVY, 10 STR",26.0,,10%,HVY: 8,9.0,9.0,0.8x,0.1s,47.7,Heavy,Greatswords
+Alloyed Inheritor,"75 HVY, 10 STR",24.0,15%,,HVY: 8,8.0,8.5,0.85x,,44,Heavy,Greatswords
+Kyrscleave (Bleed),75 HVY,24.0,,15%,HVY: 8.5,9.0,9.0,0.81x,0.1s,58.8(Bleed),Heavy,Greatswords
+Railblade,"80 HVY, LVL 10",22.0,25%,,HVY: 8.3,8.0,8.5,0.91x,,41,Heavy,Greatswords
+Fractine,"80 HVY, 40 INT, LVL 10",22.0,25%,20%,"HVY: 7, INT: 4",6.0,9.0,0.81x,,47.2,Heavy,Greatswords
+Enforcer's Blade,"80 HVY, 25 STR, LVL 6",25.0,5%,15%,HVY: 9,10.0,8.5,0.79x,,48.5,Heavy,Greatswords
+The Long Tong of The Law,"70 HVY, 15 INT, 15 CHA",17.0,,40%,"HVY: 8.5, INT: 3, CHA: 3",8.0,10.0,0.82x,,42.8,Heavy,Greatswords
+Steel Maul,"20 HVY, 10 STR",22.0,,,HVY: 7,7.0,9.0,0.8x,0.1s,38.1,Heavy,Greathammers
+Forge Greathammer,"55 HVY, 10 STR",24.0,,,HVY: 8,9.0,9.0,0.8x,0.1s,44,Heavy,Greathammers
+Rockmaller,"55 HVY, 10 STR",25.0,,,HVY: 7.5,9.5,8.0,0.82x,0.1s,44.5,Heavy,Greathammers
+Great Maul,"65 HVY, 30 STR",25.0,5%,10%,HVY: 8.3,10.0,9.0,0.85x,0.1s,46.6,Heavy,Greathammers
+Pale Morning,"75 HVY, 10 STR, LVL 10",24.0,15%,,HVY: 9,10.0,9.0,0.83x,0.1s,46.5,Heavy,Greathammers
+Putrid Edenstaff,75 HVY,25.0,15%,,HVY: 8.5,9.0,9.0,0.81x,0.1s,47.2,Heavy,Greathammers
+Petra's Anchor,"75 HVY, 10 STR, LVL 10",26.0,15%,,HVY: 8,9.0,9.0,0.8x,0.1s,47.7,Heavy,Greathammers
+Sovereign's Punishment,"75 HVY, 20 STR",26.0,20%,10%,HVY: 9,13.0,9.0,0.73x,,50.4,Heavy,Greathammers
+Alloyed Steel Maul,"75 HVY, 10 STR",24.0,10%,,HVY: 8,7.0,9.0,0.85x,0.1s,44,Heavy,Greathammers
+Alloyed Forge Greathammer,"75 HVY, 10 STR",25.5,,,HVY: 8,9.5,9.0,0.81x,0s,46.7,Heavy,Greathammers
+Enforcer's Hammer,"80 HVY, 25 STR, LVL 10",25.0,10%,10%,HVY: 9,12.0,8.5,0.8x,0.1s,48.5,Heavy,Greathammers
+Stoneheart,"80 HVY, 20 STR",24.0,10%,10%,HVY: 10,12.0,8.5,0.8x,0.1s,49,Heavy,Greathammers
+Hivelord's Hubris,"100 HVY, 60 STR",28.0,5%,,HVY: 10,9.0,10.0,0.62x,,61.3,Heavy,Greathammers
+Kanabo,"100 HVY, 40 STR",25.0,,10%,"HVY: 6, STR: 3",9.0,9.0,0.8x,0.1s,48.5,Heavy,Greathammers
+Wyrmtooth,"60 MED, 40 HVY, LV 15",20.0,20%,,"MED: 6.2, HVY: 4.2",7.0,9.0,0.93x,,41.7,Hybrid,Hybrid
+Ysley's Pyre Keeper,"25 HVY, 75 FIR, 10 LHT",23.0,15%,,"HVY: 5, FIR: 6",5.0,8.0,0.93x,,49.4,Hybrid,Hybrid
+Hero Blade of Flame,"75 FIR, LVL 11",20.0,10%,,FIR: 5.5,5.0,8.0,1x,,31.5,Elemental,Flamecharm
+Pleeksty's Inferno,"40 MED, 80 FIR",22.0,30%,10%,"MED: 3, FIR: 4",8.0,8.0,0.94x,,38,Elemental,Flamecharm
+Rosen Hellflame,"75 FIR, 40 MED",18.0,10%,,"MED: 3, FIR: 4",3.0,7.0,0.93x,,,Elemental,Flamecharm
+Ysley's Pyre Keeper,"25 HVY, 75 FIR, 10 LHT",23.0,15%,,"HVY: 5, FIR: 6",5.0,8.0,0.93x,,49.4,Elemental,Flamecharm
+Hero Blade of Frost,"75 ICE, LVL 11",20.0,10%,,ICE: 5.5,5.0,8.0,1x,,31.5,Elemental,Frostdraw
+Gran Sudaruska,"75 ICE, 30 HVY, LVL 10",24.0,,,"ICE: 8, HVY: 4",6.0,8.5,0.83x,,54,Elemental,Frostdraw
+Kyrswynter(Bleed),"50 MED, 75 ICE",16.5,20%,,"MED: 5, ICE: 5",5.0,9.0,0.96x,,43.8(Bleed),Elemental,Frostdraw
+Hailbreaker,"65 HVY, 55 ICE, LVL 10",22.0,15%,,"HVY: 7, ICE: 4",7.5,8.5,0.85x,0.1s,47.2,Elemental,Frostdraw
+Hero Blade of Lightning,"75 LTN, LVL 11",20.0,10%,,LTN: 5.5,5.0,8.0,1x,,31.5,Elemental,Thundercall
+Stormseye,"75 LTN, 40 MED",19.5,,,"LTN: 6, MED: 3",5.0,8.0,1x,,37.8,Elemental,Thundercall
+Boltcrusher,"80 LTN, 55 HVY, 20 STR",25.0,20%,30%,"LTN: 7, HVY: 4.2",8.0,8.5,0.87x,0.15s,54.2,Elemental,Thundercall
+Hero Blade of Wind,"75 WND, LVL 11",20.0,10%,,WND: 5.5,5.0,8.0,1x,,31.5,Elemental,Galebreath
+Curved Blade of Winds,"75 WND, 25 MED, LVL 10",17.5,15%,5%,"MED: 5, WND: 5",5.0,8.0,1.04x,,35.7,Elemental,Galebreath
+Wraithclaw,"25 LHT, 75 WND",15.5,10%,20%,"LHT: 4, WND: 5.5",5.0,6.5,1.1x,,30.9,Elemental,Galebreath
+Hero Blade of Shadow,"75 SDW, LVL 11",20.0,10%,,SDW: 5.5,5.0,8.0,1x,,31.5,Elemental,Shadowcast
+Crypt Blade,"75 SDW, 40 HVY, LVL 10",22.0,,,"SDW: 9, HVY: 4",8.5,9.0,0.85x,0.15s,51.8,Elemental,Shadowcast
+Deepspindle,"50 LHT, 75 SDW",14.0,20%,,"LHT: 4, SDW: 9",5.0,8.0,1.09x,,33,Elemental,Shadowcast
+Ignition Deepcrusher (Bleed if one handed),"75 MTL, 40 MED",18.0,20%,,"MTL: 4, MED: 3",4.0,8.0,1.05x,,40.4(Bleed),Elemental,Ironsing
+Iron Requiem,"75 MTL, 40 LHT",21.0,,,"MTL: 4, LHT: 3",1.0,10.0,1.17x,,36.3,Elemental,Ironsing

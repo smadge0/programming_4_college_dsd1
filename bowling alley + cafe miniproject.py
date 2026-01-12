@@ -61,11 +61,19 @@ def booking(bookings):
         newbooking = input("Enter the day you would like to book for: ")
         lane = input("Which lane would you like to book? Enter 1 through 6. \n>> ")
         booktime = input("What time are you booking for? Enter any number between 1 and 8. \n>> ")
-        if int(lane) > 6 or int(booktime) > 8 or int(booktime) < 1:
+        try:
+            int(lane)
+            int(booktime)
+            if int(lane) > 6 or int(booktime) > 8 or int(booktime) < 1:
+                print("That's an invalid input! Please try inputting again.")
+                booking(bookings)
+            else:
+                booktime = int(booktime) 
+                
+        except:
             print("That's an invalid input! Please try inputting again.")
             booking(bookings)
-        else:
-            booktime = int(booktime) + 12
++ 12
         #print(bookings[newbooking.capitalize()])
         
 

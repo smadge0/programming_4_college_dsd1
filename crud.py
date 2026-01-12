@@ -36,15 +36,17 @@ def loanchanger(loans):
                     print("Loan ID not found. Please try another loan ID.")
             field = input("Which field are you trying to update? Enter returned or due_back) ")
             if field == "returned":
-                returned = input("Has the device been returned? (Y/N) ")
+                returned = input("Has the device been returned? (y/n) ")
                 if returned == "y":
-                    print(loans[int(update)][field])
                     loans[int(update)][field] = True
-                    print(loans[int(update)][field])
                 elif returned == "n":
-                    print(loans[int(update)][field])
                     loans[int(update)][field] = False
-                    print(loans[int(update)][field])
+                    keepgoing = input("Would you like to update/delete any other information? (y/n) ")
+                    if keepgoing == "y":
+                        continue
+                    else:
+                        changes = False
+            elif field == ""
 
 loanchanger(loans)
 
