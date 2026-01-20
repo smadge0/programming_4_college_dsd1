@@ -25,5 +25,3 @@ for item in uniquecategories:
     category_revenue = round(category_sales['price'].sum(), 2)
     category_count = category_sales['product'].count()
     print(f"{item}: £{category_revenue} from {category_count} sales")
-
-print(item_sales.sort_values(by = item_revenue, ascending = False).head(10))
