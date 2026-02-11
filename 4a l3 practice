@@ -1,0 +1,128 @@
+import datetime
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv('Task_4a.csv')
+
+
+def mainmenu():
+    print("\t\t****Welcome to the Dashboard****")
+    print('1) Return all current data')
+    print('2) Return data for a specific region over time')
+    print('3) Return data for a specific region based on property types')
+    return int(input(""))
+
+
+def alldata():
+    print(df)
+
+
+def region_check(region, startdate, enddate):  # region, startdate, enddate
+
+    df1 = df.loc[:, startdate:enddate]
+    df2 = df.loc[:, 'Region Code':'Rooms']
+
+    result = pd.concat([df2, df1], axis=1, join='inner').where(df2["Region"] == region)
+    result = pd.DataFrame(result)
+    result.dropna(inplace=True)
+    print(result)
+    ave = df1.mean()
+    ave.plot()
+    plt.show()
+    return result
+
+
+def type_value_check(region,type,rooms):
+    width = 0.25
+    multiplier = 0
+    fig, ax = plt.subplots(layout='constrained')
+    for x in range(0,2):
+        offset = width * multiplier
+        rects = ax.bar(x + offset, region, width, label=rooms)
+        ax.bar_label(rects, padding=3)
+        multiplier += 1
+    ax.set_ylabel('Value')
+    ax.set_title('Value based on building type and rooms')
+    ax.set_xticks(x+width,type)
+    ax.legend(loc="upper left", ncols=3)
+    ax.set_ylim(0,250)
+
+
+x = mainmenu()
+while x == 1 or x == 2 or x == 3:
+    if x == 1:
+        alldata()
+
+    elif x == 2:
+        while True:
+            print()
+
+            region = input("Please enter the name of the region you would like to check: ")
+            region = region.capitalize()
+            if region in df.Region.values:
+                while True:
+                    startdate = input("PLEASE ENTER A START DATE AS MONTH-YEAR e.g. JAN-20: ")
+                    startdate = startdate.capitalize()
+                    if startdate not in df.columns:
+                        print("Error start date not found")
+                    else:
+                        while True:
+                            enddate = input("PLEASE ENTER AN END DATE AS MONTH-YEAR e.g. JAN-20: ")
+                            enddate = enddate.capitalize()
+                            if enddate not in df.columns:
+                                print("Error end date not found")
+                            else:
+                                region_check(region, startdate, enddate)
+                                break
+                        break
+                break
+            else:
+                print("Region not found")
+    elif x == 3:
+        region = input("Please enter the name of the region you would like to check: ")
+        region = region.capitalize()
+        if region in df.Region.values:
+            types = ['Bungalow','Semi-detached','Detached']
+            while True:
+                print("PLEASE ENTER THE TYPE OF BUILDING FROM THESE OPTIONS: ")
+                for type in types:
+                    print(type)
+                type = input("SELECT AN OPTION: ")
+                while True:
+                    rooms = input("PLEASE ENTER A NUMBER OF ROOMS BETWEEN 2-4: ")
+                    try:
+                        int(rooms)
+                    except:
+                        print("Error invalid type of input (Please enter an integer)")
+                    else:
+                        type_value_check(region,type,rooms)
+                        break
+
+                
+
+
+
+    x = mainmenu()
+
+
+
+species = ("Adelie", "Chinstrap", "Gentoo")
+
+width = 0.25  # the width of the bars
+multiplier = 0
+
+fig, ax = plt.subplots(layout='constrained')
+
+for attribute, measurement in penguin_means.items():
+    offset = width * multiplier
+    rects = ax.bar(x + offset, measurement, width, label=attribute)
+    ax.bar_label(rects, padding=3)
+    multiplier += 1
+
+# Add some text for labels, title and custom x-axis tick labels, etc.
+ax.set_ylabel('Length (mm)')
+ax.set_title('Penguin attributes by species')
+ax.set_xticks(x + width, species)
+ax.legend(loc='upper left', ncols=3)
+ax.set_ylim(0, 250)
+
+plt.show()
