@@ -35,7 +35,7 @@ def clearscores():
 
 
 def menu():
-   plssaywhattodo = input("what do you want (addscores,readscores,clearscores or exit.) ")
+   plssaywhattodo = input("What function do you want to use? (addscores,readscores,clearscores or exit.) ")
    if plssaywhattodo == "addscores":
      addscores()
    elif plssaywhattodo == "readscores":
@@ -43,9 +43,9 @@ def menu():
    elif plssaywhattodo == "clearscores":
      clearscores()
    elif plssaywhattodo == "exit":
-      print("sure")
+      print("Exiting")
    else:
-      print("wrong answer\n")
+      print("Invalid input")
       menu()
 
 
